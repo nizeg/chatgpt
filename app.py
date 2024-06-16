@@ -48,14 +48,14 @@ def main():
 
     # --- Page Config ---
     st.set_page_config(
-        page_title="The OmniChat",
+        page_title="The 4o Chat",
         page_icon="🤖",
         layout="centered",
         initial_sidebar_state="expanded",
     )
 
     # --- Header ---
-    st.html("""<h1 style="text-align: center; color: #6ca395;">🤖 <i>The OmniChat</i> 💬</h1>""")
+    st.html("""<h1 style="text-align: center; color: #6ca395;">🤖 <i>The 4o Chat</i> 💬</h1>""")
 
     # --- Side Bar ---
     with st.sidebar:
