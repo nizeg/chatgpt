@@ -101,7 +101,7 @@ def main():
                 "o3-mini-2025-01-31",
                 "gpt-4-turbo", 
                 "gpt-3.5-turbo-16k", 
-                "gpt-4", 
+                "chatgpt-4o-latest", 
                 "gpt-4-32k",
             ], index=0)
             
@@ -194,7 +194,7 @@ def main():
 
             st.divider()
             #st.video("https://www.youtube.com/watch?v=7i9j8M_zidA")
-            st.write("📋[Medium Blog](https://medium.com/@enricdomingo/code-the-omnichat-app-integrating-gpt-4o-your-python-chatgpt-d399b90d178e)")
+            #st.write("📋[Medium Blog](https://medium.com/@enricdomingo/code-the-omnichat-app-integrating-gpt-4o-your-python-chatgpt-d399b90d178e)")
 
 
 
