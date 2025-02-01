@@ -74,7 +74,7 @@ def main():
             st.write("#")
             st.write("#")
             #st.video("https://www.youtube.com/watch?v=7i9j8M_zidA")
-            st.write("📋[Medium Blog](https://medium.com/@enricdomingo/code-the-omnichat-app-integrating-gpt-4o-your-python-chatgpt-d399b90d178e)")
+            #st.write("📋[Medium Blog](https://medium.com/@enricdomingo/code-the-omnichat-app-integrating-gpt-4o-your-python-chatgpt-d399b90d178e)")
 
     else:
         client = OpenAI(api_key=openai_api_key)
@@ -97,7 +97,8 @@ def main():
             st.divider()
 
             model = st.selectbox("Select a model:", [
-                "gpt-4o-2024-05-13", 
+                "gpt-4o-2024-05-13",
+                "o3-mini-2025-01-31",
                 "gpt-4-turbo", 
                 "gpt-3.5-turbo-16k", 
                 "gpt-4", 
