@@ -98,7 +98,7 @@ def main():
 
             model = st.selectbox("Select a model:", [
                 "gpt-4o-2024-05-13",
-                "o3-mini-2025-01-31",
+                "o3-mini",
                 "o1-preview-2024-09-12", 
                 "o3-mini-2025-01-31", 
                 "chatgpt-4o-latest", 
