@@ -99,10 +99,10 @@ def main():
             model = st.selectbox("Select a model:", [
                 "gpt-4o-2024-05-13",
                 "o3-mini-2025-01-31",
-                "gpt-4-turbo", 
-                "gpt-3.5-turbo-16k", 
+                "o1-preview-2024-09-12", 
+                "o3-mini-2025-01-31", 
                 "chatgpt-4o-latest", 
-                "gpt-4-32k",
+                "o1-2024-12-17",
             ], index=0)
             
             with st.popover("⚙️ Model parameters"):
