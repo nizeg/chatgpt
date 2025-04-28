@@ -98,11 +98,11 @@ def main():
 
             model = st.selectbox("Select a model:", [
                 "gpt-4o-2024-05-13",
-                "o3-mini",
+                #"o3-mini",
                 "gpt-4o-mini", 
-                "o3-mini-2025-01-31", 
+                #"o3-mini-2025-01-31", 
                 "chatgpt-4o-latest", 
-                "o1-2024-12-17",
+                #"o1-2024-12-17",
             ], index=0)
             
             with st.popover("⚙️ Model parameters"):
@@ -194,7 +194,7 @@ def main():
 
             st.divider()
             #st.video("https://www.youtube.com/watch?v=7i9j8M_zidA")
-            st.write("📋[Medium Blog](https://medium.com/@enricdomingo/code-the-omnichat-app-integrating-gpt-4o-your-python-chatgpt-d399b90d178e)")
+            #st.write("📋[Medium Blog](https://medium.com/@enricdomingo/code-the-omnichat-app-integrating-gpt-4o-your-python-chatgpt-d399b90d178e)")
 
 
 
